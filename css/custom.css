@@ -1031,10 +1031,10 @@
         min-height: 507px !important;
     }
 
-    .kw #wrapper .offers-section .offers .offer-card .offer-description {
+    /* .kw #wrapper .offers-section .offers .offer-card .offer-description {
 
         height: calc(100% - 231px);
-    }
+    } */
 }
 
 @media (min-width: 1920px) {
