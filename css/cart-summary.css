@@ -62,7 +62,6 @@
     text-transform: capitalize !important;
     font-size: 24px;
     width: 195px;
-    text-align: center;
     margin: auto;
     transform: translateX(50%);
     position: relative;
@@ -127,13 +126,6 @@
     margin-top: 126px;
     margin-left: 0;
     margin-right: 0;
-}
-
-@media (min-width: 1920px) {
-    .kw #wrapper .checkout-card {
-        margin-left: 88px;
-        margin-right: -164px;
-    }
 }
 
 .kw #wrapper .checkout-card .card-body h4 {
@@ -405,7 +397,7 @@
 
 .kw #wrapper .promo-code a.promo-link {
     position: absolute;
-    top: 22px;
+    top: 17px;
     right: 55px;
     color: #d12b8a;
     font-weight: 900;
@@ -418,4 +410,104 @@
     color: #d12b8a;
     font-weight: 700;
     font-size: 18px;
+}
+
+@media (max-width: 1920px) {
+    .kw #wrapper .checkout-card {
+        margin-left: 88px;
+        margin-right: -186px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .kw #wrapper .checkout-card {
+        margin-left: 45px;
+        margin-right: -140px;
+    }
+
+    .kw #wrapper .cart_status_bar li.step {
+        width: 185px;
+        margin-right: 5px;
+    }
+
+    .kw #wrapper .cart_status_bar li.step h4 {
+        width: 172px;
+        margin-right: 5px;
+    }
+
+    .kw #wrapper .product_plan_sect,
+    .kw #wrapper .add_on-list-wrapper,
+    .kw #wrapper .sub_total {
+        padding-right: 0;
+    }
+
+    .kw #wrapper .cart_status_bar li.step span {
+        height: 76px;
+        width: 76px;
+    }
+
+    .kw #wrapper .cart_status_bar li.step i {
+        font-size: 25px;
+    }
+
+    .kw #wrapper .cart_status_bar li.step span {
+        padding: 22px 0;
+    }
+
+    .kw #wrapper .product_plan_sect .product .product-img {
+        padding: 15px;
+
+    }
+
+    .kw #wrapper .sub_total,
+    .kw #wrapper .add_on-list-wrapper {
+        margin-right: 29px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .kw #wrapper .checkout-card {
+        margin-left: 0;
+        margin-right: -33px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .kw #wrapper .checkout-card {
+        margin-left: 30px;
+        margin-right: -116px;
+    }
+
+    .kw #wrapper .cart_status_bar li.step {
+        width: 170px;
+        margin-right: 5px;
+    }
+
+    .kw #wrapper .cart_status_bar li.step h4 {
+        width: 160px;
+    }
+
+
+
+    .kw #wrapper .product_plan_sect,
+    .kw #wrapper .add_on-list-wrapper,
+    .kw #wrapper .sub_total {
+        padding-right: 0;
+    }
+
+    .kw #wrapper .product_plan_sect .product .product-img {
+
+        padding: 15px;
+    }
+
+    .kw #wrapper select+span.downarrow::before {
+        height: 10px;
+        width: 10px;
+        right: 12px;
+        bottom: 20px;
+    }
+
+    .kw #wrapper select {
+        height: 42px;
+    }
 }

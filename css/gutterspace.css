@@ -29,6 +29,11 @@
     padding-right: 70px;
 }
 
+.kw .plr25 {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
 .kw .plr10 {
     padding-left: 10px;
     padding-right: 10px;
@@ -126,6 +131,11 @@
 
 .kw .mt50 {
     margin-top: 50px;
+}
+
+.kw .plr40 {
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 

@@ -98,6 +98,13 @@
     padding: 0px 5px 0 9px;
 }
 
-.twitter-typeahead{
+.kw #wrapper .js-mainsearchclick i.icon-add-1 {
+    display: inline-block;
+    width: 28px;
+    padding: 0;
+    transform: rotate(45deg);
+}
+
+.twitter-typeahead {
     width: 867px;
 }

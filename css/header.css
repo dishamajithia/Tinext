@@ -78,6 +78,7 @@
 
 .kw .signed-in #wrapper .c-rightlinks-container .profile-navbar {
     display: inline-block;
+    vertical-align: middle;
 }
 
 .kw .signed-in #wrapper .profile-navbar .dropdown-menu {

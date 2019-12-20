@@ -25,7 +25,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+.icon-cancel-1:before {
+  content: "\e919";
+}
+.icon-gift-1:before {
+  content: "\e91a";
+}
+.icon-hourglass:before {
+  content: "\e91b";
+}
+.icon-Location:before {
+  content: "\e91c";
+}
+.icon-shopping-cart-2:before {
+  content: "\e91d";
+}
 .icon-exclamatory:before {
   content: "\e917";
 }

@@ -45,7 +45,6 @@
 .kw #wrapper .cart-dropdown .total-amt {
     background-color: #f7f7f7;
     padding: 15px 25px;
-    margin: -1px -25px;
 }
 
 .kw #wrapper .cart-dropdown .product_plan_sect {
@@ -64,4 +63,9 @@
 
 .kw #wrapper .cart-dropdown .cart-footer {
     padding-top: 20px;
+}
+
+.kw #wrapper .cart-dropdown .total-amt .payment_opts{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
 }
